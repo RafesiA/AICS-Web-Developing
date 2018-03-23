@@ -1,0 +1,35 @@
+body{
+  margin:0;
+}
+
+body{
+  background: #e3e3e3;
+  padding: 50px 0;
+}
+
+.my-container {
+  position: relative;
+  overflow: hidden;
+}
+
+.my-container::before{
+  content: ' ';
+  display: block;
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+  opacity: 0.4;
+  background-image: url(img\\imgForMain.jpg);
+  background-repeat: no-repeat center cetner fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o- background-size: cover;
+  background-size: cover;
+}
+  h1{
+    font-size:45px;
+    text-align: center;
+  }
