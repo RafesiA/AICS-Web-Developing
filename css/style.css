@@ -31,6 +31,7 @@ body{
     text-align: center;
   }
 
+/* Navigaion Bar */
 .topnav {
   overflow: hidden;
   background-color: #333;
@@ -48,4 +49,22 @@ body{
 .topnav a:hover{
   background-color: #ddd;
   color: black;
+}
+
+.column{
+  float: left;
+  width: 33.333%;
+  padding: 15px;
+}
+
+.row:after{
+  content: "";
+  display: table;
+  clear: both;
+}
+
+@media screen and (max-width: 600px){
+  .column{
+    width: 100%
+  }
 }
