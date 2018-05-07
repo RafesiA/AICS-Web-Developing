@@ -137,7 +137,7 @@ body{
 
 .container{
   position: relative;
-  width:50%;
+  width:17%;
 }
 
 .image{
@@ -152,8 +152,8 @@ body{
   bottom: 0;
   left: 0;
   right: 0;
-  height: 100%;
-  width: 34.1%;
+  height: auto;
+  width: auto;
   opacity: 0;
   transition: .5s ease;
   background-color: grey;
