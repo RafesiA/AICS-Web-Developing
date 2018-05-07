@@ -137,7 +137,8 @@ body{
 
 .container{
   position: relative;
-  width:17%;
+  width:9.8%;
+  display: inline-table;
 }
 
 .image{
